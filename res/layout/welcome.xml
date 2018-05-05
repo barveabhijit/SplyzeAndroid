@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/profile_connect_bkg" android:weightSum="1">
+    <EditText android:id="@+id/editText1" android:layout_width="match_parent" android:inputType="textMultiLine" android:visibility="invisible" android:layout_height="wrap_content" android:layout_weight="0.66">
+        <requestFocus></requestFocus>
+    </EditText>
+    <ImageButton android:layout_height="wrap_content" android:onClick="processLogin" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:id="@+id/facebook_button" android:src="@drawable/facebooklogin"></ImageButton>
+    <ImageButton android:id="@+id/linkedin_button" android:onClick="processLogin" android:layout_gravity="center_horizontal" android:src="@drawable/linkedinlogin" android:layout_height="wrap_content" android:layout_width="match_parent"></ImageButton>
+	<ImageButton android:id="@+id/twitter_button" android:onClick="processLogin" android:layout_gravity="center_horizontal" android:src="@drawable/twitterlogin" android:layout_height="wrap_content" android:layout_width="match_parent"></ImageButton> 	
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="newline">"\n"</string>
+    <string name="app_name">Splyze</string>
+    <string name="facebook">Facebook</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="twitter">Twitter</string>    
+    <string name="eventSelectorPrompt">Select your event...</string>
+    <string name="maps_apikey">0TM3J4c1xFis-9Hnzp090Aod5bjdttQSTNTJlfg</string>
+    <string name="map_of_event_location">Map Of the Event Location</string>
+</resources>
